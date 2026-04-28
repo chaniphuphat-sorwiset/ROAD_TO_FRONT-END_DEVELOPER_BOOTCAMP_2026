@@ -1,5 +1,30 @@
 {
   "devDependencies": {
-    "prettier-plugin-css-order": "^2.2.0"
-  }
+    "prettier-plugin-css-order": "^2.2.0",
+    "prettier-plugin-tailwindcss": "^0.8.0",
+    "tailwindcss": "^4.2.4"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.4",
+    "@tailwindcss/vite": "^4.2.4"
+  },
+  "name": "road_to_front-end_developer_bootcamp_2026",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaniphuphat-sorwiset/ROAD_TO_FRONT-END_DEVELOPER_BOOTCAMP_-2026.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/chaniphuphat-sorwiset/ROAD_TO_FRONT-END_DEVELOPER_BOOTCAMP_-2026/issues"
+  },
+  "homepage": "https://github.com/chaniphuphat-sorwiset/ROAD_TO_FRONT-END_DEVELOPER_BOOTCAMP_-2026#readme"
 }
