@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+      }
+
+      .red {
+        background-color: red;
+      }
+
+      .blue {
+        background-color: blue;
+      }
+
+      .row {
+        display: flex;
+      }
+
+      .column {
+        flex: 1;
+        padding: 20px;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-gap: 20px;
+      }
+
+      .grid-item {
+        background-color: lightblue;
+        padding: 20px;
+      }
+
+      .navbar {
+        background-color: black;
+        overflow: hidden;
+      }
+
+      .navbar a {
+        display: inline-block;
+        padding: 14px 20px;
+        color: white;
+        text-decoration: none;
+      }
+
+      .navbar a:hover {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="grid-container">
+      <div class="grid-item">1</div>
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>
+      <div class="grid-item">4</div>
+      <div class="grid-item">5</div>
+    </div>
+    <div class="row">
+      <div class="column">Column 1</div>
+      <div class="column">Column 2</div>
+      <div class="column">Column 3</div>
+    </div>
+    <div class="container">
+      This div has a class called "container".
+      <div id="header">
+        <h1>Heading</h1>
+        This div has an ID called "header".
+      </div>
+    </div>
+    <div style="background-color: lightblue; padding: 20px">
+      This div has a light blue background and 20px padding.
+    </div>
+    <div class="box red">Red Box</div>
+    <div class="box blue">Blue Box</div>
+
+    <div class="footer">Copyright &copy; 2023 MyWebsite</div>
+  </body>
+</html>

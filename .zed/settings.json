@@ -1,5 +1,12 @@
 {
   "prettier": {
-    "allowed": true
-  }
+    "allowed": true,
+  },
+  "lsp": {
+    "eslint": {
+      "settings": {
+        "workingDirectory": { "mode": "auto" },
+      },
+    },
+  },
 }
